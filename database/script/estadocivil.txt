@@ -1,0 +1,37 @@
+<comboEstadoCivilResponse>
+  <codMensagem>PSDC0963</codMensagem>
+  <mensagem>NAO EXISTEM MAIS DADOS PARA CONSULTA</mensagem>
+  <numConsultas>8</numConsultas>
+  <regSaida>
+    <cestCvilRgime>1</cestCvilRgime>
+    <iabrevEstCvil>SOLTEIRO</iabrevEstCvil>
+  </regSaida>
+  <regSaida>
+    <cestCvilRgime>2</cestCvilRgime>
+    <iabrevEstCvil>CASADO COM.UNIV.BENS</iabrevEstCvil>
+  </regSaida>
+  <regSaida>
+    <cestCvilRgime>3</cestCvilRgime>
+    <iabrevEstCvil>CASADO COM. PARCBENS</iabrevEstCvil>
+  </regSaida>
+  <regSaida>
+    <cestCvilRgime>4</cestCvilRgime>
+    <iabrevEstCvil>CASADO SEPARACAO BEM</iabrevEstCvil>
+  </regSaida>
+  <regSaida>
+    <cestCvilRgime>5</cestCvilRgime>
+    <iabrevEstCvil>SEPARADO JUDIC.</iabrevEstCvil>
+  </regSaida>
+  <regSaida>
+    <cestCvilRgime>6</cestCvilRgime>
+    <iabrevEstCvil>DIVORCIADO</iabrevEstCvil>
+  </regSaida>
+  <regSaida>
+    <cestCvilRgime>8</cestCvilRgime>
+    <iabrevEstCvil>VIUVO</iabrevEstCvil>
+  </regSaida>
+  <regSaida>
+    <cestCvilRgime>9</cestCvilRgime>
+    <iabrevEstCvil>UNIAO ESTAVEL</iabrevEstCvil>
+  </regSaida>
+</comboEstadoCivilResponse>

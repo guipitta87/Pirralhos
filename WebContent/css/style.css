@@ -1,0 +1,368 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	padding: 25px 0px 25px;
+	background-color: #749a01;
+	color: #415005;
+	font-family: tahoma, arial, sans-serif;
+	font-size: 11px;
+	text-align: center;
+}
+
+a {
+	color: #4e6200;
+	background-color: inherit;
+	text-decoration: underline;
+}
+
+.pass_input {
+	background-color: #FFFFFF;
+	border: 1px solid #576C04;
+	color: #415005;
+	font-family: tahoma, arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 2px 0;
+	background: none repeat scroll 0 0 #FFFFFF;
+	-moz-box-shadow: 0 2px 2px #327E04 inset;
+	-moz-border-radius: 6px 6px 6px 6px;
+}
+
+.header {
+	height: 150px;
+	margin-top: -20px;
+}
+
+.header_sempermissao {
+	background: url('../images/main_restrito.jpg') no-repeat 0% 2px;
+}
+
+.header_turma {
+	background: url('../images/main_turma.jpg') no-repeat 0% 2px;
+}
+
+.header_professor {
+	background: url('../images/main_professor.jpg') no-repeat 0% 2px;
+}
+
+.header_professor_acesso {
+	background: url('../images/main_professor_acesso.jpg') no-repeat 0% 2px;
+}
+
+.header_recados {
+	background: url('../images/main_recados.jpg') no-repeat 0% 2px;
+}
+
+.header_responsavel {
+	background: url('../images/main_responsavel.jpg') no-repeat 0% 2px;
+}
+.header_usuario_invalido {
+	background: url('../images/main_erro.jpg') no-repeat 0% 2px;
+}
+
+.header_telefones_creche {
+	background: url('../images/main_telefone_creche.jpg') no-repeat 0% 2px;
+}
+
+.header_cameras {
+	background: url('../images/main_cameras.jpg') no-repeat 0% 2px;
+}
+
+.header_aluno {
+	background: url('../images/main_matricula.jpg') no-repeat 0% 2px;
+}
+
+.header_usuario {
+	background: url('../images/main_usuario.jpg') no-repeat 0% 2px;
+}
+
+.header_notas_agenda {
+	background: url('../images/main_notas_agenda.jpg') no-repeat 0% 2px;
+}
+
+
+.painelCadastro {
+	text-align: left;
+	width: 99.5%;
+}
+
+.painelConsulta {
+	text-align: left;
+	width: 99.5%;
+	margin-top: 50px
+}
+
+.painelBotoes {
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.painelBotoesLeft {
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+img {
+	border: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+p {
+	margin: 6px 0px 10px;
+	text-align: justify;
+	line-height: 14px;
+}
+
+.clearthis {
+	margin: 0px;
+	height: 1px;
+	clear: both;
+	float: none;
+	font-size: 1px;
+	line-height: 0px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+/*Define cor da borda do site / tamanho / margens - centralizados automaticamente*/
+#body_wrapper {
+	margin: 0px auto;
+	padding: 3px 0px;
+	width: 786px;
+	background-color: #FFFFFF;
+}
+
+#container {
+	margin: 0px 3px;
+	color: inherit;
+	text-align: left;
+}
+
+.thumbnail {
+	margin: 8px 7px 5px 0px;
+	float: left;
+}
+
+/* Page Header */
+#page_header {
+	width: 780px;
+	height: 55px;
+	background-color: #96bb27;
+	color: inherit;
+}
+
+/* Page Search */
+#page_search {
+	margin: 15px 12px;
+	width: 432px;
+	height: 31px;
+	float: right;
+	font-weight: bold;
+	background: url(../images//SERCH.png);
+}
+
+#page_search h3 {
+	margin: 8px 0px 0px 7px;
+	float: left;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+#page_search input {
+	margin: 6px 3px 0px 7px;
+	width: 120px;
+	float: left;
+}
+
+#page_search input.button {
+	margin: 5px;
+	padding: 0px;
+	width: 60px;
+	height: 21px;
+	color: #333333;
+	background: url('../images//search_button.png') no-repeat 0% 2px;
+	border: none;
+	font-size: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+
+/* AREA DE IMAGEM PRINCIPAL */
+#mainarea {
+	width: 780px;
+	margin-top: -18px;
+	background: url('../images//main_image3.jpg') no-repeat;
+}
+
+#mainmatricula {
+	width: 780px;
+	margin-top: -18px;
+	background: url('../images//main_matricula.jpg') no-repeat;
+}
+
+#mainrestrito {
+	width: 780px;
+	margin-top: -18px;
+	background: url('../images//main_restrito.jpg') no-repeat;
+}
+
+#mainerro {
+	width: 780px;
+	margin-top: -18px;
+	background: url('../images//main_erro.jpg') no-repeat;
+}
+
+/* AREA DE CONTEUDO PRINCIPAL */
+#mainarea_2 {
+	margin-top: 205px;
+	width: 780px;
+}
+
+#mainarea_matricula_2 {
+	margin-top: 40px;
+	width: 780px;
+}
+
+/* Navigational Menu */
+#navmenu {
+	width: 780px;
+	height: 42px;
+	overflow: hidden;
+}
+
+#navmenu li {
+	float: left;
+	padding-right: 34px;
+	height: 42px;
+	background: url('../images//navmenu_background.gif') no-repeat;
+}
+
+#navmenu li#menu_4 {
+	padding-right: 26px;
+}
+
+#navmenu li#menu_5 {
+	padding: 0px;
+	background: url('../images//navmenu_background_5.gif') no-repeat;
+}
+
+#navmenu li a {
+	width: 130px;
+	height: 32px;
+	display: block;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+/* Main Content */
+#maincontent_1 {
+	padding: 39px 35px 33px;
+	background: url('../images//content_bg_top.jpg') no-repeat 35px 28px;
+}
+
+#maincontent_2 {
+	padding-top: 5px;
+	width: 713px;
+	background: url('../images//content_bg.jpg') repeat-y;
+}
+
+#maincontent_3 {
+	padding: 0px 18px 10px 23px;
+	background: url('../images//content_bg_bot.jpg') no-repeat 0px 100%;
+	text-align: left;
+}
+
+.link_details {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+/* Featured Products */
+#featured {
+	width: 650px;
+	float: left;
+}
+
+#featured h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #003366;
+	font-weight: bold;
+}
+
+/* Category: Skirts */
+#skirts {
+	padding-left: 30px;
+	width: 210px;
+	float: left;
+}
+
+#skirts h2 {
+	height: 17px;
+	background: url('../images//03skirts_header.gif') no-repeat 100% 0%;
+}
+
+/* Page Footer */
+#page_footer {
+	padding: 0px 20px;
+	background-color: #7a7a7b;
+	height: 35px;
+	color: #fff;
+	overflow: hidden;
+	font-weight: bold;
+}
+
+#page_footer a {
+	background-color: inherit;
+	color: #fff;
+}
+
+#page_footer a:hover {
+	background-color: inherit;
+	color: #BFD5ED;
+}
+
+#designby {
+	margin-top: 12px;
+	float: left;
+	width: 250px;
+	font-size: 10px;
+}
+
+/* Footer Links */
+#footer_links {
+	margin-top: 11px;
+	width: 380px;
+	float: right;
+}
+
+#footer_links a {
+	text-decoration: none;
+}
+
+#footer_links li {
+	padding: 0px 14px;
+	float: left;
+	background: url('../images//footerlinks_div.gif') no-repeat 100% 2px;
+}
+
+#footer_links li#last {
+	padding-right: 0px;
+	background: none;
+}
+
+/* Main Model */
+#mainmodel {
+	position: absolute;
+}
